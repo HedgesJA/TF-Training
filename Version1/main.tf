@@ -53,7 +53,7 @@ resource "azurerm_windows_virtual_machine" "virtual_machine" {
   resource_group_name = "VirtualMachineGroup"
   location = "UK South"
   size = "Standard_B1s"
-  admin_username = "james"
+  admin_username = "James"
   admin_password = "sdfhq48SDFdf224sf"
   license_type = "Windows_Server"
   network_interface_ids = [azurerm_network_interface.vm_network_interface.id]
